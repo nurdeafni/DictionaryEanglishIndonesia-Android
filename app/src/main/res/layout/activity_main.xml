@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="Kamus Inggris Indonesia"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:text="Inggris :"
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:text=""
+        android:id="@+id/txtInggris"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Terjemahkan"
+        android:id="@+id/btnTerjemah"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getTerjemahan"
+        />
+
+    <TextView
+        android:text="Indonesia :"
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:text=""
+        android:id="@+id/txtIndonesia"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        />
+</LinearLayout>
